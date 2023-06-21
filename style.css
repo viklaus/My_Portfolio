@@ -16,7 +16,7 @@ input {
 }
 
 body {
-    background-color: #fb839e;
+    background-color: blueviolet;
     color: #d9d9d9;
 }
 
@@ -107,7 +107,7 @@ input {
     height: 100%;
     line-height: 70px;
     padding: 0 1.6rem;
-    color: #fb839e;
+    color: blueviolet;
     font-size: 17px;
     font-weight: 600;
     position: relative;
@@ -137,7 +137,7 @@ input {
     top: 2rem;
     font-size: 1.2rem;
     border-radius: .25rem;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.384);
     color: #000;
     display: none;
     justify-content: center;
@@ -223,7 +223,7 @@ input {
     display: inline-flex;
     align-items: center;
     column-gap: .5rem;
-    background-color: #fb839e;
+    background-color: red;
     color: #fff;
     padding: .65rem 1.4rem;
     border-radius: .25rem;
@@ -344,7 +344,7 @@ h2 {
     margin: 1.5rem auto;
     width: 350px;
     height: 350px;
-    background: radial-gradient(350px, #cd5e77, transparent 50%);
+    background: radial-gradient(350px, blueviolet, transparent 50%);
 }
 
 .skills-img .center-icon {
@@ -629,7 +629,7 @@ h2 {
 
 .designCard .card-content:before {
     transform: translateY(40px) skewX(45deg);
-    filter: blur(5px) opacity: 0.5;
+    filter: blur(5px) opacity 0.5;
 }
 
 .card-content p span {
@@ -662,7 +662,7 @@ h2 {
 /*===== Project Section =====*/
 
 .projects {
-    background: #fb839e;
+    background: blueviolet;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -744,7 +744,7 @@ svg {
 }
 
 .projects .pj-container .p-box .p-contentbx a:hover {
-    color: #fb839e;
+    color: blueviolet;
 }
 
 
@@ -761,7 +761,7 @@ svg {
     position: absolute;
     width: 400px;
     height: 400px;
-    background: linear-gradient(#EF32D9, #89FFFD);
+    background: linear-gradient(blueviolet, #89FFFD);
     border-radius: 50%;
     transform: translate(10px, 5px);
 }
@@ -817,7 +817,7 @@ svg {
 
 .info-details li i {
     font-size: 25px;
-    color: #fb839e;
+    color: blueviolet;
     padding: 12px;
     margin-right: 5px;
 }
@@ -827,7 +827,7 @@ svg {
 }
 
 .info-details li a:hover {
-    color: #fb839e;
+    color: blueviolet;
 }
 
 .info-details span {
@@ -860,8 +860,8 @@ svg {
 
 .form-fields {
     display: table;
-    width;
-    100% height: auto;
+    width :100%;
+    height: auto;
 }
 
 .form-fields input,
