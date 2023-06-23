@@ -905,7 +905,7 @@ svg {
     cursor: pointer;
     color: #fff;
     text-align: center;
-    background: #fb839e;
+    background: red;
     box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
     transition: .5s;
 }
